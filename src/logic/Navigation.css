@@ -1,0 +1,17 @@
+div.nav-right {
+	float:right;
+}
+
+div.nav-left {
+	float:left;
+}
+
+div.nav-bar {
+	margin-bottom:10px;
+}
+
+.nav-bar::after {
+    content:"";
+    display:block;
+    clear:both;
+}

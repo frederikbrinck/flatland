@@ -1,0 +1,44 @@
+@font-face {
+    font-family:"Aroly";
+    src: url("../scenes/assets/aroly.ttf");
+}
+
+.container-chapter {
+	width:700px;
+	margin:auto;
+}
+
+.chapter-title {
+	text-align: center;
+}
+
+div.chapter-title h1 {
+	font-family:"Aroly";
+	font-size:80pt;
+	font-weight: normal;
+	color:black;
+	margin:70px 0 0 0;
+}
+
+div.chapter-title h2 {
+	font-size:1.5em;
+	font-weight:400;
+	line-height:30px;
+	background-color:black;
+	color:white;
+	display:inline;
+	padding:0;
+	box-shadow: 5px 0 0 black, -5px 0 0 black;
+}
+
+div.chapter-line {
+	position:relative;
+}
+
+div.chapter-line hr {
+	position:absolute;
+	width:100%;
+	border:2px solid black;
+	top:4px;
+	z-index:-1;
+}

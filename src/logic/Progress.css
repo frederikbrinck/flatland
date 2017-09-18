@@ -1,0 +1,30 @@
+.canvas-interact {
+	width:100%;
+}
+
+.canvas-success {
+	width:100%;
+	border:1px solid black;
+	margin-left:100px;
+}
+
+.progress-hidden {
+	display: none;
+}
+
+.progress-passed {
+	opacity: 1;
+	animation-name: fadeIn;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;	
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}

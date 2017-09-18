@@ -1,0 +1,32 @@
+.feeling-angle input {
+	width:50px;
+	border:1px solid white;
+	border-radius:5px;
+	margin-left:10px;
+}
+
+.feeling-angle input:focus {
+	width:50px;
+	outline:none;
+}
+
+.feeling-triangle, .feeling-pentagon {
+	background-color: #009993;
+	position:absolute;
+	top:160px;
+	color:white;
+	margin:0;
+	font-weight:400;
+	line-height:30px;
+	font-size:14px;
+	text-transform: uppercase;
+	box-shadow: 5px 0 0 #009993, -5px 0 0 #009993;
+}
+
+.feeling-triangle {
+	left:120px;
+}
+
+.feeling-pentagon {
+	right:120px;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "flatland_adaptation",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "0.8.5"
+  },
+  "dependencies": {
+    "immutable": "^3.8.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-scroll": "^1.4.5",
+    "react-three-renderer": "^3.0.2",
+    "three": "^0.82.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "homepage": "http://fj414.nyuad.im/project3"
+}
